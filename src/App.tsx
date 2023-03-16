@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './App.css';
 import Login from './pages/Login';
 import Products from './pages/Products';
 import { useAppDispatch } from './redux/hooks';
@@ -11,7 +10,7 @@ const App = () => {
     dispatch(fetchAll())
    }, [])
     return (
-        <div className="App">
+        <div className="app">
             <Products />
             <Login />
         </div>

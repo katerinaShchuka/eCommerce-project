@@ -1,6 +1,5 @@
 import React from 'react';
 import { useAppDispatch, useAppSelector } from '../redux/hooks';
-import { updateOne } from '../redux/reducers/products'
 
 const Products = () => {
 
